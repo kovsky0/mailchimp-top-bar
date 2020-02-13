@@ -55,6 +55,7 @@ function Bar (wrapperEl, config) {
 
     // configure icon
     iconEl.className = 'mctb-close'
+    iconEl.style.display = 'none'
     iconEl.innerHTML = config.icons.show
     iconEl.addEventListener('click', toggle)
 
@@ -216,6 +217,7 @@ function Bar (wrapperEl, config) {
       document.body.style[isBottomBar ? 'paddingBottom' : 'paddingTop'] = bodyPadding
     }
 
+    iconEl.style.display = "block"
     iconEl.innerHTML = config.icons.hide
     visible = true
 
@@ -246,6 +248,7 @@ function Bar (wrapperEl, config) {
     }
 
     visible = false
+    iconEl.style.display = "none"
     iconEl.innerHTML = config.icons.show
 
     return true

@@ -220,6 +220,7 @@ function Bar(wrapperEl, config) {
 
 
     iconEl.className = 'mctb-close';
+    iconEl.style.display = 'none';
     iconEl.innerHTML = config.icons.show;
     iconEl.addEventListener('click', toggle); // count input fields (3 because of hidden input honeypot)
 
@@ -379,6 +380,7 @@ function Bar(wrapperEl, config) {
       document.body.style[isBottomBar ? 'paddingBottom' : 'paddingTop'] = bodyPadding;
     }
 
+    iconEl.style.display = "block";
     iconEl.innerHTML = config.icons.hide;
     visible = true;
     return true;
@@ -408,6 +410,7 @@ function Bar(wrapperEl, config) {
     }
 
     visible = false;
+    iconEl.style.display = "none";
     iconEl.innerHTML = config.icons.show;
     return true;
   }

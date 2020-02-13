@@ -1,10 +1,10 @@
 <?php
 /*
-Plugin Name: MC4WP: Mailchimp Top Bar
+Plugin Name: MC4WP: Mailchimp Top Bar Modified for HolotropicPoland.pl
 Plugin URI: https://www.mc4wp.com/#utm_source=wp-plugin&utm_medium=mailchimp-top-bar&utm_campaign=plugins-page
-Description: Adds a Mailchimp opt-in bar to the top of your site.
+Description: Adds a Mailchimp opt-in bar to the top of your site. Modified for HP.pl. Source code: https://github.com/kovsky0/mailchimp-top-bar
 Version: 1.5.1
-Author: ibericode
+Author: ibericode, kovsky0
 Author URI: https://ibericode.com/
 Text Domain: mailchimp-top-bar
 Domain Path: /languages
